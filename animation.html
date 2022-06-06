@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+.container{
+background-color: #99dd0f;
+border: 3px solid black;
+}
+.box{
+background-color: green;
+border:2px solid white;
+width: 250px;
+height: 250px;
+position: relative;
+animation-name: aniket;
+animation-duration:5s;
+animation-iteration-count: 1;
+
+
+}
+/* animation 1 */
+/* @keyframes aniket{
+
+        0%{
+            top:0px;
+            left:0px;
+        }
+        12.5%{
+            top: 250px;
+            left: 0px;
+        }
+        25%{
+            top: 250px;
+            left: 250px;
+        }
+        37.5%{
+            top: 0px;
+            left: 250px;
+        }
+        50%{
+            top: 0px;
+            left: 500px;
+        }
+        62.5%{
+            top: 250px;
+            left: 500px;
+        }
+        75%{
+            top: 250px;
+            left: 750px;
+        }
+        87.5%{
+            top: 0px;
+            left: 750px;
+        }
+        100%{
+            top: 0px;
+            left: 0px;
+        }
+} */
+@keyframes aniket{
+
+0%{
+    top:0px;
+    left:0px;
+}
+25%{
+    top: 0px;
+    left: 1250px;
+}
+50%{
+    top: 250px;
+    left: 1250px;
+}
+75%{
+    top: 250px;
+    left: 0px;
+}
+100%{
+    top: 0px;
+    left: 0px;
+}
+
+} 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            this is a box
+        </div>
+    </div>
+    
+</body>
+</html>
